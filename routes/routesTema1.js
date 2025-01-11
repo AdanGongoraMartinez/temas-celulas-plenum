@@ -11,4 +11,8 @@ routesTema1.get('/2', (req, res) => {
     res.sendFile(path.join(__dirname, '../views', '1-2.html'));
 });
 
+routesTema1.get('/3', (req, res) => {
+    res.sendFile(path.join(__dirname, '../views', '1-3.html'));
+});
+
 module.exports = routesTema1;
